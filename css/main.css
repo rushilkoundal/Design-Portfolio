@@ -203,17 +203,24 @@ section {
     content: '';
     display: block;
     background: #6700EE;
-    opacity: .8;
+    opacity: .5;
     position: absolute;
     top: 0;left: 0;bottom: 0;right: 0;
-    transform: scale(2) translate(-66%, -65%) rotate(45deg);
-    transition: transform .6s ease-in-out;
-}*/
-/*.workshow:hover::after{
-    transform: scale(2) translate(0,0) rotate(45deg);
+    transform: scale(2) rotate(45deg);
+    transition: transform .4s ease-in-out;
+}
+.workshow:hover::after{
+    transform: scale(2) translate(-75%, -70%) rotate(45deg);
 }*/
 .workshow img {
   width: 100%;
+}
+
+.workshow img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
 }
 
 .grid-overlay {
