@@ -737,6 +737,9 @@ input, textarea {
     width: 35vw;
     padding-left: 8em;
   }
+  .contact-content {
+    background: #6700EE;
+  }
   .contact-content .contact-title {
     font-size: 1.8em;
     font-weight: bold;
@@ -750,11 +753,16 @@ input, textarea {
     font-size: 1.8em;
     padding-left: 6%;
   }
-  form {
-    padding-left: 6%;
-  }
   .contact {
-    width: 65%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 70% auto;
+        grid-template-columns: 70% auto;
+    background: unset;
+    padding: 0;
+  }
+  form {
+    padding: 6%;
   }
 }
 
