@@ -635,6 +635,7 @@ input, textarea{
         }
     }
     .contact-content{
+        background: #6700EE;
         .contact-title{
             font-size: 1.8em;
             font-weight: bold;
@@ -649,11 +650,14 @@ input, textarea{
             padding-left: 6%;
         }
     }
-    form{
-        padding-left: 6%;
-    }
     .contact{
-        width: 65%;
+        display: grid;
+        grid-template-columns: 70% auto;
+        background: unset;
+        padding: 0;
+    }
+    form{
+        padding: 6%;
     }
 }
 

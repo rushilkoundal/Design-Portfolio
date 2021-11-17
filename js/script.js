@@ -10,7 +10,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor=>{
 const btnScrollToTop = document.querySelector("#btnScrollToTop");
 
 window.addEventListener('scroll', function(){
-    console.log(this.scrollY)
     var scroll = this.scrollY;
     if(scroll<30 && !btnScrollToTop.classList.contains('hide')){
         btnScrollToTop.classList.add('hide')
@@ -26,13 +25,3 @@ btnScrollToTop.addEventListener("click", function(){
         behavior: "smooth"
     });
 });
-
-/*document.querySelectorAll('.workshow .view-design').forEach(image =>{
-    image.onclick = () =>{
-        document.querySelector('.popup-image').style.display = 'unset';
-        document.querySelector('.popup-image img').src = image.getAttribute('src');
-    }
-});
-document.querySelector('.popup-image span').onclick = () =>{
-    document.querySelector('.popup-image').style.display = 'none';
-};*/
