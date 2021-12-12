@@ -13,60 +13,6 @@ a{
     text-decoration: none;
 }
 img{width: 100%;}
-.thankYou-title{
-    font-size: 1.5em;
-    font-weight: bold;
-}
-.thankYou-subtitle{
-    margin-top: 5%;
-}
-.thankYou-title, .thankYou-subtitle{
-    font-family: 'Poppins', sans-serif;
-    color: gray;
-}
-.container{
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    background: rgb(27, 27, 27);    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.thankYou-card{
-    width: 70%;
-    height: 35%;
-    background: #232323;
-    padding: 3% 5%;
-}
-.svg{
-    width: 20%;
-    position: absolute;
-    top: 20%;
-    left: 17%;
-    pointer-events: none;
-}
-
-@media screen and (min-width: 768px){
-    .thankYou-card{
-        width: 50%;
-    }
-}
-
-@media screen and (min-width: 1024px){
-    .thankYou-title{
-        font-size: 2em;
-    }
-}
-
-@media screen and (min-width: 1250px){
-    .thankYou-card{
-        width: 40%;
-    }
-    .thankYou-subtitle{
-        padding-right: 30%;
-    }
-}
 
 .nav-container{
     background: #6E00FF;
