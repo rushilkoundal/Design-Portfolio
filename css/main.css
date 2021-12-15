@@ -39,7 +39,7 @@ header {
           justify-content: space-between;
   -ms-flex-line-pack: center;
       align-content: center;
-  padding: 2em;
+  padding: 1em;
 }
 
 header .logo {
@@ -465,6 +465,46 @@ input, textarea {
   cursor: pointer;
 }
 
+footer {
+  background: #6E00FF;
+}
+
+footer .foot-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+footer .foot-container .ensign-first {
+  text-transform: uppercase;
+  letter-spacing: .5em;
+  font-weight: medium;
+  color: #FF5CF8;
+}
+
+footer .foot-container .ensign-middle {
+  margin-left: 1%;
+  color: #FF5CF8;
+  font-weight: medium;
+  text-transform: uppercase;
+}
+
+footer .foot-container .ensign-last {
+  margin-left: 2%;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+}
+
+footer .footer-design {
+  display: none;
+}
+
 #btnScrollToTop {
   display: none;
 }
@@ -642,12 +682,12 @@ input, textarea {
   }
   .social-header .other-portfolio {
     width: 8em;
-    padding-top: 3em;
+    padding-top: 2em;
     margin-left: 3em;
   }
   .social-header img {
     width: 20px;
-    padding-top: 2.8em;
+    padding-top: 1.8em;
     padding-left: .5em;
   }
   .hero {
@@ -763,6 +803,22 @@ input, textarea {
   }
   form {
     padding: 6%;
+  }
+  footer {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 70% auto;
+        grid-template-columns: 70% auto;
+    background: unset;
+  }
+  footer .foot-container {
+    background: #6E00FF;
+  }
+  footer .footer-design {
+    display: unset;
+    width: 100%;
+    margin-left: -25%;
+    margin-top: -73%;
   }
 }
 

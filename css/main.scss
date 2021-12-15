@@ -28,7 +28,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-content: center;
-    padding: 2em; 
+    padding: 1em; 
 
     .logo{
         color: #04FFE1;
@@ -372,6 +372,36 @@ input, textarea{
     color: white;
     cursor: pointer;
 }
+footer{
+    background: #6E00FF;
+    .foot-container{
+        display: flex;
+        padding: 1em;
+        justify-content: center;    
+        font-family: 'Poppins', sans-serif;
+    .ensign-first{
+        text-transform: uppercase;   
+        letter-spacing: .5em;
+        font-weight: medium;
+        color: #FF5CF8;
+    }
+    .ensign-middle{
+        margin-left: 1%;
+        color: #FF5CF8;
+        font-weight: medium;
+        text-transform: uppercase;
+    }
+    .ensign-last{
+        margin-left: 2%;
+        font-weight: bold;
+        color: white;
+        text-transform: uppercase;
+    }
+    }   
+    .footer-design{
+        display: none;
+    } 
+}
 #btnScrollToTop{
     display: none;
 }
@@ -533,12 +563,12 @@ input, textarea{
         }
         .other-portfolio{
             width: 8em;
-            padding-top: 3em;
+            padding-top: 2em;
             margin-left: 3em;
         }
         img{
             width: 20px;
-            padding-top: 2.8em;
+            padding-top: 1.8em;
             padding-left: .5em;
         }
     }
@@ -658,6 +688,20 @@ input, textarea{
     }
     form{
         padding: 6%;
+    }  
+    footer{
+        display: grid;
+        grid-template-columns: 70% auto;
+        background: unset;
+        .foot-container{
+            background: #6E00FF;
+        }
+        .footer-design{
+            display: unset;
+            width: 100%;
+            margin-left: -25%;
+            margin-top: -73%;
+        }
     }
 }
 
