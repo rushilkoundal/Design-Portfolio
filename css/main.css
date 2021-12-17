@@ -39,7 +39,7 @@ header {
           justify-content: space-between;
   -ms-flex-line-pack: center;
       align-content: center;
-  padding: 1em;
+  padding: 2em;
 }
 
 header .logo {
@@ -485,6 +485,7 @@ footer .foot-container .ensign-first {
   letter-spacing: .5em;
   font-weight: medium;
   color: #FF5CF8;
+  font-size: 80%;
 }
 
 footer .foot-container .ensign-middle {
@@ -492,6 +493,7 @@ footer .foot-container .ensign-middle {
   color: #FF5CF8;
   font-weight: medium;
   text-transform: uppercase;
+  font-size: 80%;
 }
 
 footer .foot-container .ensign-last {
@@ -499,6 +501,7 @@ footer .foot-container .ensign-last {
   font-weight: bold;
   color: white;
   text-transform: uppercase;
+  font-size: 80%;
 }
 
 footer .footer-design {
