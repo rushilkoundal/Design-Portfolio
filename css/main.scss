@@ -833,3 +833,98 @@ footer{
     } 
 }
 
+@media only screen and (min-width: 1530px){
+    header{
+        .logo{
+            font-size: 50px;
+        }
+        nav ul {
+            font-size: 1.3em;
+        }
+    }
+    .social-header{
+        .other-portfolio{
+            width: 11em;
+            padding-top: 3.5em;
+            margin-left: 1.5em;
+        }
+        img{
+            width: 30px;
+            padding-top: 3.1em;
+            padding-left: 0.7em;
+        }
+    }
+    .hero .content{
+        h1{
+            font-size: 3.5em;
+            line-height: 1em;
+        }
+        .meet p{
+            font-size: 1.8em;
+        }
+        .scroll{
+            width: 30px;
+        }
+    }
+    .hero{
+        .highlight{
+            font-size: 32px;
+        }
+        .hero-design{
+            margin-top: 6em;
+        }
+    }
+    .featured .left{
+        .title{
+            font-size: 1.7em;
+        }
+        .subtitle{
+            font-size: 2.6em;
+        }
+    }
+    .more-featured .more-project{
+        .title2, .subtitle2{
+            font-size: 2.5em;
+        }
+    }
+    .more-featured{
+        .project-container{
+            margin-left: 2%;
+        }
+        .call{
+            font-size: 1.5em;
+        }
+    }
+    .about{
+        .title2{
+            font-size: 2em;
+        }
+        .subtitle{
+            font-size: 2.8em;
+        }
+        .quote{
+            font-size: 2.9em;
+        }
+        .about-desc, .about-desc2, .about-desc3{
+            margin-left: 3.5%;
+        }
+    }
+    .contact .contact-title{
+        font-size: 3.5em;
+        margin-left: 5%;
+    }
+    .contact-content{
+        .contact-subtitle{
+            padding-left: 10.5%;
+            font-size: 1.3em;
+        }
+        .end-tagline{
+            font-size: 2.2em;
+            padding-left: 10%;
+        }
+        form{
+            margin-left: 5%;
+        }
+    }
+}
+
